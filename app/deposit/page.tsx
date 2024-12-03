@@ -9,7 +9,6 @@ export default function Page() {
       <div className='bg-gray-100 flex flex-col items-center justify-center gap-1'>
 
         <div>
-          <img src="" alt="" width={25} height={25} className="rounded-full" />
           <div className="font-bold">Username</div>
         </div>
 
