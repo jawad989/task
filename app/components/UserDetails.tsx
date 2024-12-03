@@ -7,7 +7,7 @@ type UserDetailsProps = {
 
 export default function UserDetails({ user }: UserDetailsProps) {
   return (
-    <div className='border p-4 space-y-2 rounded-lg w-full sm:w-3/4 md:w-1/4 bg-gradient-to-br from-purple-500 to-blue-500 text-white shadow-lg'>
+    <div className='border p-4 space-y-2 rounded-lg w-full sm:w-3/4 md:w-1/2 lg:w-1/4 bg-gradient-to-br from-purple-500 to-blue-500 text-white shadow-lg'>
       <div>
         <h2 className='font-bold'>{user.name}</h2>
         {/* <p>IBAN: {user.iban}</p> */}

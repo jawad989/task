@@ -1,8 +1,11 @@
 "use client";
 
+import Back from "../components/Back";
+
 export default function Page() {
   return (
     <div className="p-4">
+      <Back/>
       <h2 className="font-bold text-lg mt-4 mb-4">Account Statement</h2>
       <div className="overflow-x-auto">
         <table className="border-collapse border border-gray-400 w-full text-sm text-left">

@@ -1,9 +1,11 @@
 "use client"
 
+import Back from "../components/Back"
+
 export default function Page() {
   return (
-    <div className='grid grid-rows-[1fr_auto] min-h-screen'>
-      {/* <div className='bg-gray-200 p-4'>top (adjusts to content)</div> */}
+    <div className='grid grid-rows-[auto_1fr_auto] min-h-screen'>
+      <div className='bg-gray-200 p-4'><Back /></div>
       <div className='bg-gray-100 flex flex-col items-center justify-center gap-1'>
 
         <div>
